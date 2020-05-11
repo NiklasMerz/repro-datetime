@@ -6,7 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-
-  constructor() {}
+  dayShortNames: any;
+  constructor() {
+    this.dayShortNames = ['Mo1', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So'];
+  }
 
 }
